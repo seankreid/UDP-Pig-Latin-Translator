@@ -4,6 +4,8 @@
 # UDP Server 
 
 
+import socket 
+
 vowels = ('a','e','i','o','u','A','E','I','O','U')
 def translateWord(word):
 	firstLetter = word[0]
@@ -22,7 +24,6 @@ def translateSentence(sentence):
 
 
 
-import socket
 
 bufferSize = 2048
 serverPort = 12000
