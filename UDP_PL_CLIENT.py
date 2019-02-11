@@ -7,7 +7,6 @@
 import socket
 
 
-
 serverName = socket.gethostbyname("")
 serverPort = 12000
 bufferSize = 2048
